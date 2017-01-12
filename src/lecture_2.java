@@ -80,7 +80,7 @@ public class lecture_2 {
 		//Java has garbage collection 
 		System.out.println(Foo.SOME_VALUE);
 		}
-	//System.out.println (myEnum.Foo.getTag());
+	System.out.println (myEnum.Foo.getTag());
 	}
 
 //Example of a Class in Java
@@ -133,7 +133,7 @@ enum Enum{
 	VALUE_3;
 }
 
-//Very useful for mutliple states
+//Very useful for muliple states
 enum myEnum{
 	Foo("foo"),Bar("bar");
 	private final String tag;
