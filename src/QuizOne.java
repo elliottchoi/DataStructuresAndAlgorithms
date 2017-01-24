@@ -5,6 +5,7 @@ public class QuizOne {
 
 	}
 	
+	//Find sum of n-even fib sequence
 	public int evenFib(long number){
 		// Fibonacci
 	    int f = 1;
@@ -35,6 +36,7 @@ public class QuizOne {
 	    }
 	}
 
+	//O(1) implementation of square of sums - sum of squares
 	public long squareSums(long n)
 	{
 		return (long) ((long) (Math.pow((n/3)*(n+1)*(n+0.5), 2.0))-Math.pow(((n)*(n+1)/2),2.0));
