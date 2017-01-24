@@ -8,7 +8,7 @@ public class QuizOne {
 	//Find sum of n-even fib sequence
 	public int evenFib(long number){
 		// Fibonacci
-	    int f = 1;
+	    int f = 2;
 	    int g = 1;
 	    int sum=1;
 	    
